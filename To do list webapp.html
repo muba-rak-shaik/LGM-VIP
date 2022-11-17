@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="https://res.cloudinary.com/dhcgqeh8i/image/upload/v1668700055/Screenshot_14_u33ekw.png">
+        <link rel="stylesheet" href="To do list webapp.css">
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+        <title>To Do List</title>
+    </head>
+    <body>
+        <div class="wrapper">
+            <p id="heading">📝 To Do List 📝</p>
+            <div class="task-input">
+                <input type="text" placeholder="Add a new task">
+                <button>+</button>
+            </div>
+            <div class="controls">
+                <div class="filters">
+                    <span class="active" id="all">All</span>
+                    <span id="pending" id="all">Pending</span>
+                    <span id="completed" id="all">Completed</span>
+                </div>
+                <button class="clear-btn">Clear All</button>
+            </div>
+            <ul class="task-box"></ul>
+        </div>
+
+        <script src="To do list webapp.js"></script>
+    </body>
+</html>
